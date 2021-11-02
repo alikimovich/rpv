@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>rpv ^ DeepTech Venture fund</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+        <style>
+            html {
+                font-family: sans-serif; /* 1 */
+                -ms-text-size-adjust: 100%; /* 2 */
+                -webkit-text-size-adjust: 100%; /* 2 */
+            }
+            body {
+                margin: 0;
+                background-color: #fafafa;
+            }
+            .container {
+                position: relative;
+                display: block;
+                padding: 60px 20px;
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 100%;
+            }
+            .row {
+                width: 100%;
+                display: flex;
+            }
+            .col {
+                width:100%;
+            }
+            .line {
+                display: none;
+            }
+            .main-text {
+                padding-top: 40px;
+                font-family: 'Inter', sans-serif;
+                font-size: 18px;
+                line-height: 1.4em;
+            }
+            .ml2 .letter {
+                display: inline-block;
+                line-height: 1em;
+            }
+            .mailto {
+                margin-top: 27px;
+            }
+            .mailto a{
+                color: #0D5BDC;
+                text-decoration: none;
+                font-weight: 600;
+            }
+            .mailto a:hover {
+                color: #999;
+            }
+            .logo svg {
+                width: 70px;
+            }
+            .diagram {
+                    display: none;
+            }
+            .diagram-mobile {
+                display:block;
+                position: fixed;
+                right: 96px;
+                bottom:24px;
+            }
+            .diagram-mobile svg {
+                    position: fixed;
+                    bottom: 82px;
+                }
+                .diagram-mobile .inner {
+                    right: -48px;
+                    margin-bottom: -48px;
+                }
+                .diagram-mobile .morph {
+                    right: -82px;
+                    margin-bottom: -82px;
+                }
+                .diagram-mobile .circle {
+                    right: -79px;
+                    margin-bottom: -79px;
+                }
+                .diagram-mobile .outer {
+                    right: -120px;
+                    margin-bottom: -120px;
+            }
+
+            /* Larger than mobile */
+            @media (min-width: 400px) {
+                .container {
+                    position: relative;
+                    display: block;
+                    padding: 60px 20px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 100%;
+                }
+            }
+    
+            /* Larger than phablet (also point when grid becomes active) */
+            @media (min-width: 550px) {}
+    
+            /* Larger than tablet */
+            @media (min-width: 750px) {
+                .logo {
+                    margin-left: 50%;
+                }
+                .logo svg {
+                    width: initial;
+                }
+                .container {
+                    position: relative;
+                    display: block;
+                    padding: 60px 40px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 100%;
+                }
+                
+                .main-text {
+                    margin-left: 50%;
+                    padding-top: 240px;
+                    font-size: 24px;                
+                }
+                .diagram {
+                    display: block;
+                    position: fixed;
+                    height: 100%;
+                    -webkit-animation: spin 5s linear infinite;
+                    animation: spin 5s linear infinite;
+                    -moz-animation:spin 5s linear infinite;
+                }
+                .diagram svg {
+                    position: fixed;
+                    top: 50%;
+
+                }
+                .diagram .inner {
+                    left: -218.5px;
+                    margin-top: -218.5px;
+                    transform: translateZ(20px);
+                }
+                .diagram .morph {
+                    left: -379px;
+                    margin-top: -379px;
+                    transform-style: preserve-3d;
+                    transform: perspective(500px);
+                }
+                .diagram .circle {
+                    left: -364.5px;
+                    margin-top: -364.5px;
+                    transform-style: preserve-3d;
+                    transform: perspective(500px);
+                }
+                .diagram .outer {
+                    left: -556px;
+                    margin-top: -556px;
+                    transform-style: preserve-3d;
+                    transform: perspective(1000px);
+                }
+                .diagram-mobile {
+                    display: none;
+                }
+            }
+    
+            /* Larger than desktop */
+            @media (min-width: 1000px) {
+    
+            }
+    
+            /* Larger than Desktop HD */
+            @media (min-width: 1200px) {
+                .container {
+                    position: relative;
+                    display: block;
+                    padding: 80px 122px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 1440px;
+                }
+                .line {
+                    margin-top:103px;             
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="diagram" data-tilt data-tilt-full-page-listening data-tilt-max="2">
+            <svg class="inner appear" width="437" height="437" viewBox="0 0 437 437" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="218.5" cy="218.5" r="218" stroke="black"/>
+                <path class="drawing" d="M96.7071 218L218 96.7071L339.293 218L218 339.293L96.7071 218Z" stroke="black"/>
+            </svg>                
+            <svg class="circle appear" width="729" height="729" viewBox="0 0 729 729" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="364.5" cy="364.5" r="364" stroke="#D2D2D2"/>
+            </svg>            
+            <svg class="morph appear" width="758" height="758" viewBox="0 0 758 758" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="drawing" d="M111.389 111.389L379 0.541198L646.611 111.389L757.459 379L646.611 646.611L379 757.459L111.389 646.611L0.541198 379L111.389 111.389Z" stroke="black"/>
+            </svg>                                
+            <svg class="outer appear" width="1112" height="1112" viewBox="0 0 1112 1112" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="drawing" d="M343.423 42.794L556 0.509793L768.577 42.794L948.791 163.209L1069.21 343.423L1111.49 556L1069.21 768.577L948.791 948.791L768.577 1069.21L556 1111.49L343.423 1069.21L163.209 948.791L42.794 768.577L0.509793 556L42.794 343.423L163.209 163.209L343.423 42.794Z" stroke="#D2D2D2"/>
+            </svg>
+        </div>
+        <div class="diagram-mobile" data-tilt data-tilt-full-page-listening data-tilt-max="2">
+            <a href="mailto:hello@rpv.global">
+            <svg class="inner appear" width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="48.1075" cy="48.1075" r="46.6583" stroke="#999999"/>
+                <path d="M22.3761 47.9999L47.9999 22.3761L73.6237 47.9999L47.9999 73.6237L22.3761 47.9999Z" stroke="#999999"/>
+            </svg>              
+            <svg class="circle appear" width="158" height="158" viewBox="0 0 158 158" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="79.1075" cy="79.1075" r="78.1691" stroke="#D2D2D2"/>
+            </svg>   
+            <svg class="morph appear" width="164" height="164" viewBox="0 0 164 164" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24.5421 24.5421L81.9997 0.742369L139.457 24.5421L163.257 81.9997L139.457 139.457L81.9997 163.257L24.5421 139.457L0.742369 81.9997L24.5421 24.5421Z" stroke="#999999"/>
+            </svg>                                            
+            <!-- <svg class="outer appear" width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M74.2731 9.60544L120 0.509795L165.727 9.60544L204.492 35.5077L230.395 74.2731L239.49 120L230.395 165.727L204.492 204.492L165.727 230.395L120 239.49L74.2731 230.395L35.5077 204.492L9.60544 165.727L0.509795 120L9.60544 74.2731L35.5077 35.5077L74.2731 9.60544Z" stroke="#D2D2D2"/>
+            </svg>                 -->
+        </a>
+        </div>        
+        <div class="container">
+            <div class="row">
+                <div class="logo">
+                    <svg width="93" height="47" viewBox="0 0 93 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.06065 11.3357V34.2722H8.15374V12.33C9.54584 9.34697 12.7278 7.756 15.8434 7.756C17.4344 7.756 19.0917 8.15374 20.4175 9.01552L21.2793 2.1213C20.0197 1.65726 18.6276 1.45839 17.3018 1.45839C13.1918 1.45839 9.47955 3.64598 7.95487 7.62341C7.82229 5.6347 7.49083 3.57969 7.09309 1.78985H0C0.729196 5.03808 1.06065 8.08745 1.06065 11.3357Z" fill="#1A1A1A"/>
+                        <path d="M27.2806 11.3357V47H34.3737V30.9577C36.495 33.2116 39.2792 34.2722 42.3286 34.2722C53.2665 34.2722 58.8349 25.4556 58.8349 16.5063C58.8349 8.35261 54.062 1.12694 44.8476 1.12694C40.4725 1.12694 36.5613 3.04937 34.1086 6.76164C33.976 5.10437 33.7108 3.38082 33.3131 1.78985H26.1537C26.8829 5.03808 27.2806 8.08745 27.2806 11.3357ZM34.3737 24.5938V12.1312C36.031 9.21439 38.8815 7.15938 42.5938 7.15938C48.7588 7.15938 51.9407 12.1312 51.9407 17.8322C51.9407 23.5994 48.7588 28.5712 42.3286 28.5712C38.9478 28.5712 36.2299 27.5106 34.3737 24.5938Z" fill="#1A1A1A"/>
+                        <path d="M89.3182 0L83.6172 4.04372C85.2082 5.17066 86.07 6.96051 86.07 9.1481C86.07 13.5233 82.7555 20.3512 75.795 28.1735L72.8119 0L61.4762 1.92243L61.0785 3.44711H62.1391C64.1278 3.44711 65.1885 4.30889 65.7188 7.88858L69.4311 34.2722H71.0883C84.2802 21.9422 92.9642 12.33 92.9642 5.96615C92.9642 3.44711 91.7047 1.59097 89.3182 0Z" fill="#1A1A1A"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="row">
+                <div class="main-text ml2">
+                    <p><strong>rpv</strong> is a DeepTech Venture fund focused on early stage, scientifically intense ventures.</p>
+                    <p>Our team is composed of reputable scientists, serial entrepreneurs and investment professionals.</p>
+                    <p>We are supported by the international scientific advisory board with key areas of expertise in Neuroscience, Quantum, New Energy and New Materials.</p>
+                    <p class="mailto"><a href="mailto:hello@rpv.global">hello@rpv.global</a></p>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js" integrity="sha512-K9tDZvc8nQXR1DMuT97sct9f40dilGp97vx7EXjswJA+/mKqJZ8vcZLifZDP+9t08osMLuiIjd4jZ0SM011Q+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            var t1 = anime.timeline({loop: false})
+            t1.add({
+                targets: '.logo svg',
+                opacity: [0,1],
+                easing: "easeInOutExpo",
+                duration: 900
+            }).add({
+                targets: '.ml2 p',
+                translateY: [100,0],
+                opacity: [0,1],
+                easing: "easeOutExpo",
+                duration: 900,
+                delay: (el, i) => 50 * i
+            });
+
+            anime({
+                targets: '.inner',
+                translateX: 0,
+                scale: [0.5,1],
+                opacity: [0.5,1],
+                easing: "easeOutExpo",
+                duration: 1200,
+                rotate: [0,360]
+            });
+                           
+            anime({
+                targets: '.circle',
+                translateX: 0,
+                scale: [0.5,1],
+                opacity: [0.5,1],
+                easing: "easeOutExpo",
+                duration: 1200,
+            });
+            
+            anime({
+                targets: '.outer',
+                translateX: 0,
+                scale: [0.5,1],
+                opacity: [0.5,1],
+                easing: "easeOutExpo",
+                duration: 1200,
+                rotate: [0,360]
+            });   
+            anime({
+                targets: '.drawing',
+                strokeDashoffset: [anime.setDashoffset, 0],
+                easing: 'easeInOutSine',
+                duration: 1200   
+            });               
+
+            var t2 = anime.timeline({loop: false})
+            t2.add({
+                targets: '.morph',
+                translateX: 0,
+                scale: [0.5,1],
+                opacity: [0.5,1],
+                easing: "easeOutExpo",
+                duration: 1200,
+                rotate: [0,360]
+            });
+                 
+        </script>
+    </body>
+</html>
