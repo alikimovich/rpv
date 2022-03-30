@@ -7241,6 +7241,7 @@ tr {
 
 td {
   padding: 1em;
+  min-width: 6em;
 }
 
 th:first-child, td:first-child {
