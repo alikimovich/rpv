@@ -474,10 +474,10 @@
 <circle cx="1044.5" cy="172.5" r="10.5" fill="#34D541"/>
 <circle cx="607.5" cy="230.5" r="8.5" stroke="#4285F4" stroke-width="4"/>
 <path d="M355.523 232L363 222.28L370.477 232L363 241.72L355.523 232Z" stroke="black" stroke-width="4"/>
+<path d="M442.523 307L450 297.28L457.477 307L450 316.72L442.523 307Z" stroke="#4285F4" stroke-width="4"/>
 <path d="M558.383 256L566 242.15L573.617 256H558.383Z" stroke="#4285F4" stroke-width="4"/>
 <path d="M354.383 288L362 274.15L369.617 288H354.383Z" stroke="#F4A142" stroke-width="4"/>
 <path d="M340.383 272L348 258.15L355.617 272H340.383Z" stroke="black" stroke-width="4"/>
-<path d="M443.383 313L451 299.15L458.617 313H443.383Z" stroke="black" stroke-width="4"/>
 <path d="M945.383 167L953 153.15L960.617 167H945.383Z" stroke="#34D541" stroke-width="4"/>
 <circle cx="1755.5" cy="735.5" r="10.5" fill="#6942F4"/>
 <path d="M1865.52 776L1873 766.28L1880.48 776L1873 785.72L1865.52 776Z" stroke="#6942F4" stroke-width="4"/>
